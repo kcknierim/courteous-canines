@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 <title>Courteous Canine Test</title>
 </head>
-
-<body>
-  
+    <body> 
+    <div class="container">
    <nav class="navbar fixed-top navbar-expand-md navbar-custom">   
 
         <a href="index.html"><img class="navbar-brand rounded float-left" src="images/logo.jpg" width="50" height="50" alt="logo"></a>
@@ -39,7 +38,7 @@
                 </li>
 
                 <!--dropdown for Training Services -->
-                <li class="nav-item dropdown">
+                <ul class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#puppy">Puppy Orientation</a>
@@ -47,7 +46,8 @@
                         <a class="dropdown-item" href="#advanced">Advanced Obedience</a>
                         <a class="dropdown-item" href="#behavior">Behavorial Concerns</a>
                     </div>
-                </li>
+                </ul>
+                
                 <!--end dropdown -->
 
 
@@ -63,8 +63,11 @@
         <!--navbar-collpase-->
 
     </nav>
+        </div> 
     <!--End navbar-->
-    
+
+   <main>
+   
     <div class="col-lg-10 box mx-auto ">
             <h1>Courteous Canines</h1>
             <p class="lead">Individualized One-on-One Dog Training</p>
@@ -104,6 +107,7 @@
                 <img class="d-block w-100" src="images/Roxie.jpg" alt="Tenth slide">
             </div>
   </div>
+ 
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -111,17 +115,19 @@
   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
+  </a> <div id="trainers"></div>
 </div>
+
  
 <!--   ALL WORKING SO FAR   -->
    
-    <div class="container">
+    <div class="container-fluid" >
 
         <!--Start of Meet the Trainers Section-->
 
         <div class="row">
-            <div class="col-lg-10 mx-auto" id="trainers">
+        
+            <div class="col-lg-10 mx-auto" >
                 <h2>Meet the Trainers</h2>
             </div>
 
@@ -184,21 +190,28 @@
                     </p>
                 </div>
             </div>
+            
         </div>
+        <br><br>
 
         <!--End of Meet the Trainers Section-->
 <!--   Start Services Offered   -->
        
        <div class="row">
-            <div class="col-lg-10 mx-auto" id="services">
+            <div class="col-lg-10 mx-auto" >
 
 
                 <h2>Training Services Offered</h2>
             </div>
+           <div id="puppy"></div> 
+           <div id="basic"></div>
+            <div id="advanced"></div>
+            <div id="behavior"></div>
+        </div>
             <div class="row">
                 <div class="col-sm-6 col-md-3" >
                     <br>
-                    <h5 class="m-md-3" id="puppy">Puppy Orientation</h5>
+                    <h5 class="m-md-3">Puppy Orientation</h5>
 
                     <div class="panel-5">
 
@@ -206,11 +219,12 @@
                         </p>
 
                     </div>
+                    
                 </div>
 
                 <div class="col-sm-6 col-md-3" >
                     <br>
-                    <h5 class="m-md-3" id="basic">Basic Obedience</h5>
+                    <h5 class="m-md-3">Basic Obedience</h5>
 
                     <div class="panel-6">
 
@@ -218,10 +232,11 @@
                         </p>
 
                     </div>
+                   
                 </div>
                 <div class="col-sm-6 col-md-3" >
                     <br>
-                    <h5 class="m-md-3" id="advanced">Advanced Obedience</h5>
+                    <h5 class="m-md-3">Advanced Obedience</h5>
 
                     <div class="panel-7">
 
@@ -229,30 +244,32 @@
                         </p>
 
                     </div>
+                    
                 </div>
                 <div class="col-sm-6 col-md-3" >
                     <br>
-                    <h5 class="m-md-3" id="behavior">Behavorial Concerns</h5>
+                    <h5 class="m-md-3" >Behavorial Concerns</h5>
 
                     <div class="panel-8">
 
                         <p>This covers a variety of issues such as chewing, digging and barking and the more serious issues such as resource guarding, dog-to-dog or dog-to-human aggression, separation anxiety, fear and handling issues. We will work with you and your dog to achieve the best possible outcome.
                         </p>
-
+<div id="contact"></div>
                     </div>
                 </div>
-            </div>
         </div>
+            </div>
+        
         
 <!--    End Services Offered-->
         
 <!-- STILL WORKING     -->
        
 <!--Start Contact Form-->
-
+<br><br>
 
         <div class="row">
-            <div class="col-lg-10 mx-auto" id="contact">
+            <div class="col-lg-10 mx-auto" >
 
                 <h2>Contact us</h2>
 
@@ -348,7 +365,8 @@
        
 <!-- CAROUSEL STILL WORKING     -->      
     
- </div>
+<!-- </div>-->
+ </main>
 <!--END Container -->
       
 <!-- Footer -->
@@ -384,3 +402,7 @@
 </body>
 
 </html>
+
+
+
+

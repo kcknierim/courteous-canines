@@ -9,6 +9,7 @@
     background-color: #eaf4fe;
    padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 5px;
 }
 
 /* change the text color */
@@ -109,7 +110,17 @@
 
 body{
 /*    background-color: rgba(98, 186, 13, 0.1);*/
-    padding-top: 75px;
+    padding-top: 90px;
+  
+    
+}
+.nav {
+    top: o;
+}
+
+.carousel{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .row {
@@ -120,8 +131,13 @@ body{
     
 }
 
-
-
+.main{
+    padding-top: 75px;
+}
+.scrollsby {
+    position: relative;
+    margin-top: 75px;
+}
 
 .header {
     margin-bottom: 0;
@@ -134,6 +150,11 @@ body{
     width: 100%;
     padding: 0;
     
+}
+
+.figure{
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 /*
@@ -157,6 +178,10 @@ body{
 /*    background-color: rgba(234, 244, 254, 0.8);*/
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.row-training{
+    margin-top: 50px;
 }
 
 
@@ -235,6 +260,7 @@ body{
     color: #3d466e;
     padding: 5px;
 }
+
 
 .lead{
     background-color: rgba(234, 244, 254, 0.8);
